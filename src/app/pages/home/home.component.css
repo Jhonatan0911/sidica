@@ -1,13 +1,19 @@
 .md{
   width: 100% !important;
   height: 150% !important;
-  padding-bottom: 200px !important;
+  padding-bottom: 100px !important;
 }
 
 .text-home{
   padding-top: 4em;
   font-size: 3em;
   line-height: 67px;
+}
+.description-header{
+  font-size: 1.5em;
+}
+.description-header button{
+  font-size: 1em;
 }
 
 .img-home{

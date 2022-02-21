@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  background-color: #027B78!important;
+  background-color: #025554 !important;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -33,7 +33,8 @@ body{
   background-color: #027B78 !important;
 }
 .btn-secondary{
-  width: 100% !important;
+  width: 50% !important;
+  height: 80px !important;
   background-color: #E99C3C !important;
 }
 .btn-third{
