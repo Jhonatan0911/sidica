@@ -6,12 +6,18 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { IdeasColomboComponent } from './pages/ideas-colombo/ideas-colombo.component';
+import { LoginComponent } from './pages/login/login.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    IdeasColomboComponent,
+    LoginComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

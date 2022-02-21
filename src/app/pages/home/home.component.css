@@ -70,4 +70,8 @@
     line-height: 35px;
   }
 
+  .img-share{
+    display: none;
+  }
+
 }
