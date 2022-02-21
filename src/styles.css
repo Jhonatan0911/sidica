@@ -33,8 +33,6 @@ body{
   background-color: #027B78 !important;
 }
 .btn-secondary{
-  width: 50% !important;
-  height: 80px !important;
   background-color: #E99C3C !important;
   border-radius: 20px !important;
 }
@@ -50,4 +48,26 @@ body{
 }
 .btn-third:hover{
   background-color: hsl(0, 0%, 70%) !important;
+}
+
+.btn-header{
+  width: 50% !important;
+  height: 80px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .btn-header{
+    width: 50% !important;
+    height: 50px !important;
+  }
+}
+.modal-backdrop{
+  display: none !important;
+}
+.modal-header{
+  border-bottom-width: 0px !important;
+  padding-bottom: 0px !important;
+}
+.modal-body{
+  padding-top: 0px !important;
 }

@@ -48,6 +48,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 @media screen and (min-width: 600px) {
   .home{
     display: flex;
@@ -65,13 +66,17 @@
     left: 6.2%;
     right: 52.65%;
     padding-top: 2em;
-
     font-size: 2em;
     line-height: 35px;
   }
-
   .img-share{
     display: none;
+  }
+  .text-home2{
+    font-size: 0.7em;
+  }
+  .md{
+    padding-bottom: 20px !important;
   }
 
 }

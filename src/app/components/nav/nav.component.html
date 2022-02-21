@@ -3,19 +3,19 @@
     'shadow-xl': !quieto
   }"
   style="z-index: 99;" onscroll="changuecolor()">
-  <div class="mx-auto md:px-24 px-6">
+  <div class="mx-auto py-1 md:px-24 px-6">
     <div class="flex justify-between items-center md:justify-start ">
       <div class="flex justify-start lg:w-0 lg:flex-1">
         <a href="/">
           <span class="sr-only">SIDICA</span>
           <img class="h-10 w-auto sm:h-20 pt-3" src="../assets/img/logo_sidica.png" alt="">
         </a>
-        <div class="md:hidden" style="padding: 10px;">
+        <!-- <div class="md:hidden" style="padding: 10px;">
           <span>SIDICA</span>
-        </div>
+        </div> -->
       </div>
       <div class="-mr-2 -my-2 md:hidden">
-        <button type="button" class="rounded-md p-2 inline-flex items-center justify-center text-dark hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+        <button tyype="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <span class="sr-only">Open menu</span>
           <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="false">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -34,47 +34,44 @@
       </div>
     </div>
   </div>
-  <!-- <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-    <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
-      <div class="pt-5 pb-6 px-5">
-        <div class="flex items-center justify-between">
-          <div>
-            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">
-          </div>
-          <div class="-mr-2">
-            <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-              <span class="sr-only">Close menu</span>
-              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
+
+  <div class="modal md:hidden"  id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img class="-m-3 p-3 h-20 w-auto sm:h-20 pt-3" src="../assets/img/logo_sidica.png" alt="">
+          <button type="button" data-bs-dismiss="modal" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <span class="sr-only">Close main menu</span>
+            <!-- Heroicon name: outline/x -->
+            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
         </div>
-        <div class="mt-6">
-          <nav class="grid gap-y-8">
-            <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-              <span class="ml-3 text-base font-medium text-gray-900"> Analytics </span>
-            </a>
-
-            <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-              <span class="ml-3 text-base font-medium text-gray-900"> Engagement </span>
-            </a>
-
-            <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-              <span class="ml-3 text-base font-medium text-gray-900"> Security </span>
-            </a>
-
-            <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-              <span class="ml-3 text-base font-medium text-gray-900"> Integrations </span>
-            </a>
-          </nav>
-        </div>
-      </div>
-      <div class="py-6 px-5 space-y-6">
-        <div>
-          <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"> Sign up </a>
+        <div class="modal-body">
+          <div class="mt-6">
+            <nav class="grid gap-y-8">
+              <a href="#inicio" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                <span data-bs-dismiss="modal" class="ml-3 text-base font-medium text-gray-900"> Inicio </span>
+              </a>
+              <a href="#conocenos" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                <span data-bs-dismiss="modal" class="ml-3 text-base font-medium text-gray-900"> Conocenos </span>
+              </a>
+              <a href="#videos" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                <span data-bs-dismiss="modal" class="ml-3 text-base font-medium text-gray-900"> Videos </span>
+              </a>
+              <a href="#contactanos" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                <span data-bs-dismiss="modal" class="ml-3 text-base font-medium text-gray-900"> Contactanos </span>
+              </a>
+              <a routerLink="ideas-colombo" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                <span data-bs-dismiss="modal" class="ml-3 text-base font-medium text-gray-900"> Ideas Colombo </span>
+              </a>
+            </nav>
+            <a href="#formulario" data-bs-dismiss="modal" class="block w-full px-5 mt-3 py-3 text-center font-medium primary bg-gray-50 hover:bg-gray-100"> Inscribete </a>
+          </div>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
+
 </div>
