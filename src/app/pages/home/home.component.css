@@ -1,0 +1,47 @@
+.md{
+  width: 100% !important;
+  height: 150% !important;
+  padding-bottom: 200px !important;
+}
+
+.text-home{
+  padding-top: 4em;
+  font-size: 3em;
+  line-height: 67px;
+}
+
+.img-home{
+  position: absolute;
+  right: -64px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  background-image: url("src/assets/img/1 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 600px) {
+  .home{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header{
+    max-width: 50% !important;
+    padding-right: 80px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .text-home{
+    left: 6.2%;
+    right: 52.65%;
+    padding-top: 2em;
+
+    font-size: 2em;
+    line-height: 35px;
+  }
+
+}

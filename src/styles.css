@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  background-color: #027B78!important;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* Colores globales */
+.primary{
+  color: #025554 !important;
+}
+.secondary{
+  color: #E99C3C !important;
+}
+
+/* Fondos globales */
+.bg-primary{
+  background-color: #025554 !important;
+}
+.bg-secondary{
+  background-color: #E99C3C !important;
+}
+.bg-third{
+  background-color: #FBF7ED !important;
+}
+
+/* Botones globales */
+.btn-primary{
+  background-color: #027B78 !important;
+}
+.btn-secondary{
+  width: 100% !important;
+  background-color: #E99C3C !important;
+}
+.btn-third{
+  background-color: #FFFFFF !important;
+}
+
+.btn-primary:hover{
+  background-color: hsl(179, 97%, 20%) !important;
+}
+.btn-secondary:hover{
+  background-color: hsl(33, 80%, 45%) !important;
+}
+.btn-third:hover{
+  background-color: hsl(0, 0%, 70%) !important;
+}
