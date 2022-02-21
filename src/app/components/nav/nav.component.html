@@ -1,4 +1,8 @@
-<div class="relative bg-third sticky">
+<div class="relative bg-third sticky top-0 navscroll"
+  [ngClass]="{
+    'shadow-xl': !quieto
+  }"
+  style="z-index: 99;" onscroll="changuecolor()">
   <div class="mx-auto md:px-24 px-6">
     <div class="flex justify-between items-center md:justify-start ">
       <div class="flex justify-start lg:w-0 lg:flex-1">
