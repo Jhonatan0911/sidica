@@ -36,6 +36,7 @@ body{
   width: 50% !important;
   height: 80px !important;
   background-color: #E99C3C !important;
+  border-radius: 20px !important;
 }
 .btn-third{
   background-color: #FFFFFF !important;

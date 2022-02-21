@@ -27,14 +27,27 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.imga{
+.img-share{
   width: 200px !important;
   height: 200px!important;
   background-image: url("src/assets/img/share.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.img-form{
+  width: 400px !important;
+  height: 400px!important;
+  background-image: url("src/assets/img/movl.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-form2{
+  width: 400px !important;
+  height: 400px!important;
+  background-image: url("src/assets/img/robot.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 @media screen and (min-width: 600px) {
   .home{
     display: flex;
