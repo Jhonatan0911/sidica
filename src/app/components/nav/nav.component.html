@@ -2,7 +2,7 @@
   [ngClass]="{
     'shadow-xl': !quieto
   }"
-  style="z-index: 99;" onscroll="changuecolor()">
+  style="z-index: 99;" *ngIf="URLactual !='/login' && URLactual !='/dashboard'">
   <div class="mx-auto py-1 md:px-24 px-6">
     <div class="flex justify-between items-center md:justify-start ">
       <div class="flex justify-start lg:w-0 lg:flex-1">

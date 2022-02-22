@@ -9,6 +9,7 @@ export class NavComponent implements OnInit {
 
   constructor() { }
 
+  URLactual: any;
   quieto: boolean = true;
   menu: any;
   a: any
@@ -24,6 +25,7 @@ export class NavComponent implements OnInit {
       }else{
         this.quieto = true;
       }
-    }, 500);
+      this.URLactual = window.location.pathname;
+    }, 1000);
   }
 }
