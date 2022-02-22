@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 600px) {
   .btn-secondary{
-    width: 30% !important;
+    width: 70% !important;
     height: 50px !important;
   }
 }
