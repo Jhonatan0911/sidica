@@ -1,6 +1,6 @@
 <!-- Header -->
  <section id="header-colombo" class="header-colombo">
-   <img class="img-fluid" src="/assets/img/colombo/header.jpg"  alt="preload image">
+   <img class="img-fluid" src="/assets/img/colombo/header.png"  alt="">
 
 </section>
 <!-- Pre-inscripción -->
@@ -13,7 +13,7 @@
       </div>
       <div class="mt-10">
         <div class="text-center">
-          <button class="btn-secondary"> Pre-inscribe tu idea Colombo </button>
+          <button class="btn-secondary"> <a href="http://colomboalemanbq.com/sidica/ideascolombo.php"> Pre-inscribe tu idea Colombo </a> </button>
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@
       </div>
       <div class="mt-10">
         <div class="lg:text-center relative mx-auto">
-          <img class="mx-auto w-70" src="/assets/img/colombo/tutorial.jpg" alt="">
+          <img class="mx-auto w-70" src="/assets/img/colombo/pasos.png" alt="">
         </div>
       </div>
       <div class="mt-10">
@@ -122,3 +122,113 @@
     </div>
   </div>
 </section>
+
+<!-- Formulario pre inscripción -->
+<!-- <div class="modal md:hidden"  id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <img class="-m-3 p-3 h-20 w-auto sm:h-20 pt-3" src="../assets/img/logo_sidica.png" alt="">
+        <button type="button" data-bs-dismiss="modal" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+          <span class="sr-only">Close main menu</span>
+           Heroicon name: outline/
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="mt-6">
+          <form id="formIdeas">
+            <div class="row">
+              <div class="col-12">
+                <img class="img-fluid" src="/assets/img/colombo/cabecera.png" alt="">
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-12 text-center">
+                <h6>FORMATO DE PRE-INSCRIPCIÓN <span class="text-orange"><b>IDEAS COLOMBO</b></span></h6>
+              </div>
+            </div>
+            <div class="row">
+              <div class="flex flex-col mb-3">
+                <label for="proyectoTxt" class="mb-1 text-xs tracking-wide text-gray-600">Titulo de la propuesta:</label>
+                <div class="relative">
+                  <input id="proyectoTxt" type="text" name="proyectoTxt" class="text-sm placeholder-gray-500 pl-4 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400" placeholder="Ingresa el titulo de la propuesta"/>
+                </div>
+              </div>
+              <div class="flex flex-col mb-6">
+                <label for="nombreInsTxt" class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600">Instructor:</label>
+                <div class="relative">
+                  <input id="nombreInsTxt" type="text" name="nombreInsTxt" class="text-sm placeholder-gray-500 pl-4 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400" placeholder="Nombre del instructor"/>
+                </div>
+              </div>
+              <div class="flex flex-col mb-6">
+                <label for="nombreApreTxt" class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600">Aprendiz:</label>
+                <div class="relative">
+                  <input id="nombreApreTxt" type="text" name="nombreApreTxt" class="text-sm placeholder-gray-500 pl-4 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400" placeholder="Nombre del aprendiz"/>
+                </div>
+              </div>
+
+              <div class="flex flex-col mb-6">
+                <label for="nombreApreTxt" class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600">Programa o Especialidad:</label>
+                <div class="relative">
+                  <input id="programaTxt" type="text" name="programaTxt" class="text-sm placeholder-gray-500 pl-4 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400" placeholder="Programa o Especialidad"/>
+                </div>
+              </div>
+
+              <div class="flex flex-col mb-6">
+                <label for="nombreApreTxt" class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600">Ficha:</label>
+                <div class="relative">
+                  <input id="fichaTxt" type="text" name="fichaTxt" class="text-sm placeholder-gray-500 pl-4 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400" placeholder="Número de ficha"/>
+                </div>
+              </div>
+
+              <div class="flex flex-col mb-3">
+                <label for="email" class="mb-1 text-xs tracking-wide text-gray-600">Correo:</label>
+                <div class="relative">
+                  <input id="email" type="email" name="email" class="text-sm placeholder-gray-500 pl-4 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400"placeholder="Ingresa tu correo"/>
+                </div>
+              </div>
+
+              <div class="flex flex-col mb-3">
+                <label for="telTxt" class="mb-1 text-xs tracking-wide text-gray-600">Teléfono:</label>
+                <div class="relative">
+                  <input id="telTxt" type="text" name="telTxt" class="text-sm placeholder-gray-500 pl-4 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400"placeholder="Ingresa tu correo"/>
+                </div>
+              </div>
+
+            </div>
+            <div class="row mt-4">
+
+              <div class="col-12 mb-3">
+                <div class="row">
+                  <div class="col-3">
+                    <div class="d-flex flex-column text-center">
+                      <h6>
+                        Breve Descripción de la propuesta
+                      </h6>
+                      <img class="img-fluid" src="/assets/img/colombo/cerebro.png" alt="cerebro.png">
+                    </div>
+                  </div>
+                  <div class="col-9">
+                    <div class="form-group">
+                      <textarea class="form-control b-black" id="ideaTxt" name="ideaTxt" rows="12" placeholder="max. 300 palabras, min. 150"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="row mt-4">
+              <div class="col-12">
+                <img class="img-fluid" src="/assets/img/colombo/piecera.png" alt="">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
